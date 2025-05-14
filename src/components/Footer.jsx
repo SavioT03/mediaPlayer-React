@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -14,7 +13,7 @@ const Footer = () => {
             style={{ textDecoration: "none", color: "cyan", fontSize: "25px" }}
             to={"/"}
           >
-            <i class="fa-solid fa-headphones-simple"></i> MBeats
+            <i className="fa-solid fa-headphones-simple"></i> MBeats
           </Link>{" "}
           <br />
           <p className="mt-3" style={{ color: "white" }}>
@@ -74,12 +73,12 @@ const Footer = () => {
             </Button>
           </div>
           <div className="d-flex mt-3 gap-3" style={{ color: "white" }}>
-            <i class="fa-brands fa-x-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-solid fa-phone"></i>
+            <i className="fa-brands fa-x-twitter"></i>
+            <i className="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-github"></i>
+            <i className="fa-solid fa-phone"></i>
           </div>
         </div>
       </div>

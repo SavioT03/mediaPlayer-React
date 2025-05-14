@@ -1,0 +1,17 @@
+import axios from "axios";
+import { baseURL } from "./serverURL";
+
+const CommonApi= async(httpMethod,endPoint,requestBody) => {
+    const requestConfig={
+        method:httpMethod,
+        url:baseURL+endPoint,
+        data:requestBody
+    }
+    return await axios(requestConfig).then((res)=>{
+        return res
+    }).catch((err)=>{
+        return err
+    })
+}
+
+export default CommonApi

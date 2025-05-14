@@ -7,7 +7,7 @@ const Header = () => {
     <Container>
       <Navbar.Brand >
         <Link style={{textDecoration:'none'}} to="/">
-      <i class="fa-solid fa-headphones-simple"></i>{"  "}
+      <i className="fa-solid fa-headphones-simple"></i>{"  "}
         MBeats
         </Link>
       </Navbar.Brand>
